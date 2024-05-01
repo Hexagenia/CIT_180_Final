@@ -1,0 +1,384 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    Z-index: 1;
+    top: 9;
+    left: 9;
+    background-color: M#111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+    }
+    
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: M#818181;
+    display: block;
+    transition: 0.3s;
+    
+    }
+    I
+    
+    .sidenav a:hover {
+    color: DCi#f1f1f1;
+    
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        }
+        #main {
+        transition: margin-left .5s;
+        padding: 16px;
+        }
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;} /* decreases padding-top for mobile */
+        .sidenav a {font-size: 18px;} /* decreases link font-size for mobile */
+        }
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+h1, body{
+    /* background-color: #efb6d4; */
+    background-image:url('/media/background.png');
+    color:#d74894;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 6vw;
+    text-shadow: black 1px 1px 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color:#d74894;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color:#d74894;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+details{
+    background-color: black;
+    color: rgb(255, 173, 240);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+body{
+    font-size: 4vw;
+    color:#d74894;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #d74894;
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:visited{
+    color: #d74894;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+a:link{
+    color: rgb(38, 0, 255);
+}
+
+a:active{
+    color: rgb(108, 0, 135);
+}
+
+p{
+    text-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{ 
+    text-shadow: none;
+    text-align: right;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ////////////////// */
+
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    background-color:  	#ff64b7;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color:  	#efb6d4; */
+    
+    padding: 15px;
+    
+  }
+  .grid-item {
+    background-color: #ffa3d4;
+    
+    /* border: 5px solid  	 	#f7daea; */
+    border: none;
+    padding:none;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+/* /////////////// */
+
+
+
+
+
+
+/* 
+  .responsive {
+    width: 50%;
+    height: auto;
+  }
+
+  .responsive-GB-GBA-DS-3DS {
+    width: 40%;
+    height: auto;
+  }
+
+  .responsive-SNES-N64 {
+    width: 40%;
+    height: auto;
+  }
+
+  .responsive-WII {
+    width: 70%;
+    height: auto;
+  }
+
+  .responsive-NES-NS{
+    width: 20%;
+    height: auto;
+  } */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+/* //////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.kirby {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height: auto;
+    margin:-300px 0px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
